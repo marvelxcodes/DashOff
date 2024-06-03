@@ -1,0 +1,6 @@
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+node_modules/
+.turbo
+.vscode
