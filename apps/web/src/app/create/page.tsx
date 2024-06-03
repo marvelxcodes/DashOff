@@ -22,6 +22,11 @@ const CreatePage = () => {
 							placeholder='Your Name'
 							className=''
 						/>
+						<TextInput
+							placeholder='Password (Optional)'
+							type='password'
+							className=''
+						/>
 						<div className='space-y-1'>
 							<Text className='w-full'>Max Players</Text>
 							<NumberInput
@@ -58,7 +63,7 @@ const CreatePage = () => {
 				<Divider>OR</Divider>
 
 				<Link href={'/'}>
-					<Button className='w-full'>Join Game</Button>
+					<Button className='bg-white w-full'>Join Game</Button>
 				</Link>
 			</Card>
 		</div>

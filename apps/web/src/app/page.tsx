@@ -21,15 +21,16 @@ const HomePage = () => {
 						className=''
 					/>
 					<TextInput
-						placeholder='Enter Password'
 						className=''
+						type='password'
+						placeholder='Enter Password (Optional)'
 					/>
 				</Flex>
 				<Button className='bg-white w-full'>Join Game</Button>
 
 				<Divider>OR</Divider>
 				<Link href={'/create'}>
-					<Button className='w-full'>Create a Game </Button>
+					<Button className='bg-white w-full'>Create a Game </Button>
 				</Link>
 			</Card>
 		</div>
